@@ -1,12 +1,12 @@
-import React from 'react'
+
 import './Header.css';
 import Logo from './logo.png';
-import {useState } from 'react';
+import { useState } from 'react';
 import { GiHamburgerMenu } from "react-icons/gi";
 
 
 function Header() {
-    const [showMediaIcons, setShowMediaIcons] = useState(false);
+    const [showMediaIconsNav, setShowMediaIconsNav] = useState(false);
 
     return (
         <div className="navbar" id="navbar">
@@ -86,11 +86,11 @@ function Header() {
             </ul>
 
             {/* hamburget menu start  */}
-          <div className="hamburger-menu">
-            <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
-            <GiHamburgerMenu />
-            </a>
-          </div>
+            <div className="Navhamburger-menu">
+                <a href="#" onClick={() => setShowMediaIconsNav(!showMediaIconsNav)}>
+                    <GiHamburgerMenu />
+                </a>
+            </div>
         </div>
 
     )

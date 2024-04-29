@@ -4,9 +4,13 @@ import Logo from './logo.png';
 import meta from './meta.svg';
 import linkedin from './linkedin.svg';
 import instagram from './instagram.svg';
+import {useState } from 'react';
+import { GiHamburgerMenu } from "react-icons/gi";
 
-// Rename the function to avoid naming conflict
+
 function MyFooter() {
+
+    const [showMediaIcons, setShowMediaIcons] = useState(false);
     return (
         <footer>
             <div className="left">
@@ -55,6 +59,13 @@ function MyFooter() {
                 <li><a href="#">SpeakUp</a></li>
                 <li><a href="#">Terms of use</a></li>
             </ul>
+
+              {/* hamburget menu start  */}
+          <div className="Footerhamburger-menu">
+            <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+            <GiHamburgerMenu />
+            </a>
+          </div>
 
             <div className="container">
                 <p>Copyright &copy; 2024 Your Company Name. All rights reserved.</p>
