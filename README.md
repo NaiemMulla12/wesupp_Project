@@ -6,3 +6,16 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+to run this project do following steps
+
+insure nodejs is install in your pc
+
+install node module "npm i"
+install jquery "npm install jquery"
+install react icon "npm install react-icons"
+
+
+to run project 
+"npm run dev"

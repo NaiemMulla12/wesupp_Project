@@ -1,8 +1,13 @@
 import React from 'react'
 import './Header.css';
 import Logo from './logo.png';
+import {useState } from 'react';
+import { GiHamburgerMenu } from "react-icons/gi";
+
 
 function Header() {
+    const [showMediaIcons, setShowMediaIcons] = useState(false);
+
     return (
         <div className="navbar" id="navbar">
             <div className="logo">
@@ -42,50 +47,11 @@ function Header() {
                 </li>
                 <li className="dropdown">
                     <a href="#">Discover Wesupp</a>
-                    {/* <div className="dropdown-content">
-                    <div className="left">
-                        <h1>Services</h1>
-                    </div>
-
-                    <div className="right">
-                        <div className="first">
-                            <a href="#">Softwere Development</a>
-                            <a href="#">Website Development</a>
-                            <a href="#">Mobile Application Development</a>
-                            <a href="#">WordPress</a>
-                        </div>
-                        <div className="second">
-                            <a href="#">Digital Marketing</a>
-                            <a href="#">UI / UX</a>
-                            <a href="#">Content Writing</a>
-                        </div>
-
-                    </div>
-                </div> */}
                 </li>
 
                 <li className="dropdown">
                     <a href="#">Work we offer</a>
-                    {/* <div className="dropdown-content">
-                    <div className="left">
-                        <h1>Services</h1>
-                    </div>
 
-                    <div className="right">
-                        <div className="first">
-                            <a href="#">Softwere Development</a>
-                            <a href="#">Website Development</a>
-                            <a href="#">Mobile Application Development</a>
-                            <a href="#">WordPress</a>
-                        </div>
-                        <div className="second">
-                            <a href="#">Digital Marketing</a>
-                            <a href="#">UI / UX</a>
-                            <a href="#">Content Writing</a>
-                        </div>
-
-                    </div>
-                </div> */}
                 </li>
 
                 <li className="dropdown">
@@ -118,6 +84,13 @@ function Header() {
                     Discover
                 </li>
             </ul>
+
+            {/* hamburget menu start  */}
+          <div className="hamburger-menu">
+            <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+            <GiHamburgerMenu />
+            </a>
+          </div>
         </div>
 
     )
