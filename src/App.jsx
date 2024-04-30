@@ -6,10 +6,7 @@ import Myfooter from './Components/Footer/MyFooter'
 function App() {
   return (
     <>
-    <Header/>
-    <Home/>
-
-    <Myfooter/>
+   
     
     </>
   )

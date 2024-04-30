@@ -16,6 +16,7 @@ insure nodejs is install in your pc
 install node module "npm i"
 install jquery "npm install jquery"
 install react icon "npm install react-icons"
+install react router dom "npm i react-router-dom"
 
 
 to run project 

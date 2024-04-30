@@ -1,0 +1,26 @@
+.construction-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.construction-content {
+    text-align: center;
+}
+
+.construction-heading {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.construction-text {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.construction-image {
+    max-width: 100%;
+}

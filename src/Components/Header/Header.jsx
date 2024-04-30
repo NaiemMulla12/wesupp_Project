@@ -2,6 +2,7 @@
 import './Header.css';
 import Logo from './logo.png';
 import { useState } from 'react';
+import {Link, NavLink} from 'react-router-dom'
 import { GiHamburgerMenu } from "react-icons/gi";
 
 
@@ -17,7 +18,7 @@ function Header() {
 
             <ul>
                 <li className="dropdown">
-                    <a href="#">Landing Page</a>
+                    <Link to="/">Landing Page</Link>
                     <div className="dropdown-content">
                         <div className="left">
                             <h1>Services</h1>
@@ -46,42 +47,45 @@ function Header() {
                     </div>
                 </li>
                 <li className="dropdown">
-                    <a href="#">Discover Wesupp</a>
+                    <Link to="DiscoverWesupp">Discover Wesupp</Link>
                 </li>
 
                 <li className="dropdown">
-                    <a href="#">Work we offer</a>
-
-                </li>
-
-                <li className="dropdown">
-                    <a href="#">Insight</a>
+                    <Link to="UnderConstructionPage">Work we offer</Link>
 
                 </li>
 
                 <li className="dropdown">
-                    <a href="#">Clients</a>
+                    <Link to="UnderConstructionPage">Insight</Link>
+
+                </li>
+
+                <li className="dropdown">
+                    <Link to="UnderConstructionPage">Clients</Link>
 
                 </li>
                 <li className="dropdown">
-                    <a href="#">Hiring</a>
+                    <Link to="UnderConstructionPage">Hiring</Link>
 
                 </li>
                 <li className="dropdown">
-                    <a href="#">Get in Touch</a>
+                    <Link to="UnderConstructionPage">Get in Touch</Link>
 
                 </li>
             </ul>
 
             <ul className="ulist">
                 <li>
-                    Investors
+                    <Link to="UnderConstructionPage">Investors</Link>
+                    
                 </li>
                 <li>
-                    Contact Us
+                <Link to="UnderConstructionPage">Contact Us</Link>
+                    
                 </li>
                 <li>
-                    Discover
+                <Link to="UnderConstructionPage"> Discover</Link>
+                    
                 </li>
             </ul>
 
