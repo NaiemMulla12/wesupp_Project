@@ -234,24 +234,10 @@
 
 /* Button hover effect */
 #button:hover {
-    background-color: #3070fc;
-    /* Darker green background on hover */
-    border-color: #ffffff;
-    /* Darker green border on hover */
-    margin-top: 1.5rem;
-    margin-left: 4rem;
-    display: inline-block;
-    padding: 12px 28px;
-    font-size: 18px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    border: 2px solid #ffffff;
-    /* Green border */
-    color: white;
-
-    /* Green background */
-    border-radius: 25px;
+    background-color: #005da8;
+    transform: scale(1.1);
+    
+ 
 }
 
 /* burger dropdown css */
