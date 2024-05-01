@@ -4,6 +4,7 @@ import Logo from './logo.png';
 import { useState } from 'react';
 import {Link, NavLink} from 'react-router-dom'
 import { GiHamburgerMenu } from "react-icons/gi";
+import menu from './menu.svg'
 
 
 function Header() {
@@ -92,7 +93,7 @@ function Header() {
             {/* hamburget menu start  */}
             <div className="Navhamburger-menu">
                 <a href="#" onClick={() => setShowMediaIconsNav(!showMediaIconsNav)}>
-                    <GiHamburgerMenu />
+                <GiHamburgerMenu />
                 </a>
             </div>
         </div>

@@ -10,9 +10,9 @@ function Home() {
                 Your browser does not support the video tag.
             </video>
 
-            <div className="content">
+            {/* <div className="content">
                 <h1>We are Wesupp</h1>
-            </div>
+            </div> */}
         </>
     );
 }
