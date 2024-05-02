@@ -4,12 +4,14 @@ import Notfound from './Pages/NotFound/Notfound.jsx'
 import Home from "./Pages/Home/Home.jsx";
 import UnderConstructionPage from './Pages/UnderConstructionPage/UnderConstructionPage.jsx'
 import DiscoverWesupp from './Pages/DiscoverWesupp/DiscoverWesupp.jsx'
+import About from "./Pages/About/About.jsx"
 export{
     Header,
     MyFooter,
     Notfound,
     UnderConstructionPage,
     DiscoverWesupp,
-    Home
+    Home,
+    About
 
 }

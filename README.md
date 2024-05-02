@@ -24,4 +24,8 @@ to run project
 =======
 first need to installl node module by 'npm i' command
 - to run this project you need this command "npm run dev"
+
+install 
+npm install react-slick slick-carousel
+
 >>>>>>> 4b4989473b0e1e324639ff208ff8517e500f7554

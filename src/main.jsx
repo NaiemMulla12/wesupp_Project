@@ -5,13 +5,14 @@ import App from './App.jsx'
 import './index.css'
 
 import Layout from './Layout.jsx'
-import { Home,Notfound,UnderConstructionPage } from './Export.js'
+import { Home,Notfound,UnderConstructionPage,About } from './Export.js'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
       <Route path='' element={<Home />} />
       <Route path='*' element={<Notfound />} />
+      <Route path='/About' element={<About />} />
       <Route path='/UnderConstructionPage' element={<UnderConstructionPage />} />
       {/* <Route path='#' element={<About />} />
       <Route path='#' element={<Contact />} />
