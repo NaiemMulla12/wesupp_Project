@@ -10,10 +10,6 @@ footer {
     /* Adjust padding as needed */
 }
 
-.Footerhamburger-menu {
-    display: none;
-}
-
 
 .left img {
     width: 100px;
@@ -24,27 +20,44 @@ footer {
     filter: brightness(0.4) contrast(0.8) invert(1) sepia(1) saturate(7900%) hue-rotate(280deg);
 }
 
-.column {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    margin-top: 1rem;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* Adjust as needed */
+    margin-left: 10rem;
+    margin-top: 30rem;
+
+
 }
 
-.column li {
+.column {
+    margin-top: -12rem;
+    margin-left: 5rem;
+    width: calc(15%);
+    /* 4 columns by default */
+    margin-bottom: 20px;
+    /* Adjust as needed */
 
-    margin-bottom: 0.6rem;
-    /* Add some space between list items */
-    margin-left: -8rem;
+}
+
+
+.column li {
+    width: 20vh;
+    margin-left: 0rem;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
 
 }
 
 .column li a {
     text-decoration: none;
     color: #000000;
-    /* Text color */
     transition: color 0.3s;
-    /* Smooth color transition on hover */
+    margin-bottom: 0.5rem;
+
 }
 
 .column li a:hover {
@@ -55,27 +68,31 @@ footer {
 
 .container {
     width: 100%;
-    /* Make container full width */
     margin-top: 2rem;
-    /* Add some space between ul lists and container */
     display: flex;
-    /* Use flexbox */
+    flex-wrap: wrap;
     align-items: center;
-    /* Align items vertically */
+
+}
+
+.copywright {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
+
 }
 
-.container p {
+.copywright p {
     margin-right: 40rem;
-
+    text-align: left;
 }
 
-.container img {
+.copywright img {
     width: 30px;
-    /* Adjust social media icon size as needed */
     height: 30px;
     margin: 1rem;
-
 
 }
 
@@ -95,20 +112,46 @@ footer {
 
     }
 
-    .container p {
-        margin-right: 25rem;
+    .copywright p {
+        margin-right: 22rem;
+        text-align: left;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 5rem;
+        margin-top: 10rem;
+    }
+
+    .column {
+        margin-left: 1rem;
+        width: calc(35%);
+        margin-bottom: 20rem;
+        margin-top: -18rem;
 
     }
 
-    .container img {
-        width: 30px;
-        /* Adjust social media icon size as needed */
-        height: 30px;
-        margin: 0.8rem;
-
+    .copywright {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: start;
+        margin-top: -20rem;
+        
 
     }
 
+    .copywright p {
+        margin-right: 22rem;
+        text-align: left;
+       
+    }
 
 }
 
@@ -122,43 +165,44 @@ footer {
 
     }
 
-
-
-    .column li {
-
-        margin-bottom: 0.6rem;
-        /* Add some space between list items */
-        margin-left: -6rem;
-
-    }
-
-
-
     .container {
-        width: 100%;
-        /* Make container full width */
-        margin-top: 2rem;
-        /* Add some space between ul lists and container */
         display: flex;
-        /* Use flexbox */
-        align-items: center;
-        /* Align items vertically */
+        flex-wrap: wrap;
         justify-content: center;
-    }
-
-    .container p {
-        margin-right: 15rem;
-        font-size: 14px;
+        margin-left: 5rem;
+        margin-top: 10rem;
 
     }
 
-    .container img {
-        width: 25px;
-        /* Adjust social media icon size as needed */
-        height: 25px;
-        margin: 1rem;
+    .column {
+        margin-left: 1rem;
+        width: calc(35%);
+        margin-bottom: 20rem;
+        margin-top: -18rem;
+
+    }
+    .column li {
+        margin-left: 0rem;
+        margin: 0 auto;
+    }
 
 
+    .copywright {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: -20rem;
+        
+
+    }
+
+    .copywright p {
+        margin-left: 1rem;
+        margin-right: 0rem;
+        text-align: left;
+       
     }
 
 }
@@ -174,26 +218,29 @@ footer {
 
     }
 
-    .column li {
-
-        margin-bottom: 0.6rem;
-        /* Add some space between list items */
-        margin-left: -6rem;
-
-    }
-
-
     .container {
-        width: 100%;
-        /* Make container full width */
-        margin-top: 2rem;
-        /* Add some space between ul lists and container */
         display: flex;
-        /* Use flexbox */
-        align-items: center;
-        /* Align items vertically */
+        flex-wrap: wrap;
         justify-content: center;
+        margin-left: 5rem;
+        margin-top: 10rem;
+
     }
+
+    .column {
+        margin-left: 1rem;
+        width: calc(35%);
+        margin-bottom: 20rem;
+        margin-top: -18rem;
+
+    }
+
+
+    .column li {
+        margin-left: 0rem;
+        margin: 0 auto;
+    }
+
 
     .container p {
         margin-right: 6rem;
@@ -235,37 +282,28 @@ footer {
         filter: brightness(0.4) contrast(0.8) invert(1) sepia(1) saturate(7900%) hue-rotate(280deg);
     }
 
-    .column {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        margin-top: 1rem;
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 5rem;
+        margin-top: 10rem;
+
     }
+
+    .column {
+        margin-left: 1rem;
+        width: calc(35%);
+        margin-bottom: 20rem;
+        margin-top: -18rem;
+
+    }
+
 
     .column li {
-
-        margin-bottom: 0.6rem;
-        /* Add some space between list items */
-        margin-left: -8rem;
-
-
-
+        margin-left: 0rem;
+        margin: 0 auto;
     }
-
-    .column li a {
-        text-decoration: none;
-        color: #000000;
-        /* Text color */
-        transition: color 0.3s;
-        /* Smooth color transition on hover */
-
-
-
-
-    }
-
-
-
 
 
     .container p {
@@ -286,47 +324,48 @@ footer {
 
 }
 
-
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 580px) {
 
     footer {
         display: flex;
         flex-direction: column;
         background-color: #ffffff;
-        /* Light background color */
         padding: 2rem;
-        /* Adjust padding as needed */
         align-items: center;
 
     }
 
     .left img {
         width: 90px;
-        /* Adjust the logo size as needed */
         height: auto;
-        margin-left: -15rem;
-        margin-top: 0.5rem;
+        margin-left: -17rem;
+        margin-top: 1rem;
         margin-right: 4rem;
         filter: brightness(0.4) contrast(0.8) invert(1) sepia(1) saturate(7900%) hue-rotate(280deg);
     }
 
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 5rem;
+        margin-top: 12rem;
+
+    }
+
     .column {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        margin-top: -5rem;
-        display: none;
-    }
-
-    .Footerhamburger-menu {
-        margin-left: 25rem;
-        margin-top: -5rem;
-        display: block;
-        font-size: 30px;
-        color: black;
+        margin-left: 1rem;
+        width: calc(35%);
+        margin-bottom: 20rem;
+        margin-top: -18rem;
 
     }
 
+
+    .column li {
+        margin-left: 0rem;
+        margin: 0 auto;
+    }
 
     .container p {
         margin-right: 4rem;
@@ -345,28 +384,15 @@ footer {
 }
 
 @media screen and (max-width: 482px) {
-
-
     .left img {
         width: 80px;
         /* Adjust the logo size as needed */
         height: auto;
-        margin-left: -12rem;
+        margin-left: -13rem;
         margin-top: 0.5rem;
         margin-right: 4rem;
         filter: brightness(0.4) contrast(0.8) invert(1) sepia(1) saturate(7900%) hue-rotate(280deg);
     }
-
-
-    .Footerhamburger-menu {
-        margin-left: 20rem;
-        margin-top: -5rem;
-        display: block;
-        font-size: 30px;
-        color: black;
-
-    }
-
 
     .container p {
         margin-right: 2rem;
@@ -385,28 +411,38 @@ footer {
 }
 
 @media screen and (max-width: 390px) {
-
-
     .left img {
         width: 70px;
         /* Adjust the logo size as needed */
         height: auto;
-        margin-left: -8rem;
-        margin-top: -1rem;
+        margin-left: -12rem;
+        margin-top: 1rem;
         margin-right: 4rem;
         filter: brightness(0.4) contrast(0.8) invert(1) sepia(1) saturate(7900%) hue-rotate(280deg);
     }
 
-
-    .Footerhamburger-menu {
-        margin-left: 15rem;
-        margin-top: -3.9rem;
-        display: block;
-        font-size: 30px;
-        color: black;
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 5rem;
+        margin-top: 13rem;
 
     }
 
+    .column {
+        margin-left: 1rem;
+        width: calc(35%);
+        margin-bottom: 20rem;
+        margin-top: -18rem;
+
+    }
+
+
+    .column li {
+        margin-left: 0rem;
+        margin: 0 auto;
+    }
 
     .container p {
         margin-right: 2rem;
@@ -426,25 +462,41 @@ footer {
 
 @media screen and (max-width: 360px) {
 
-
     .left img {
         width: 60px;
         /* Adjust the logo size as needed */
         height: auto;
-        margin-left: -8rem;
+        margin-left: -11rem;
         margin-top: -1rem;
         margin-right: 4rem;
         filter: brightness(0.4) contrast(0.8) invert(1) sepia(1) saturate(7900%) hue-rotate(280deg);
     }
 
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 5rem;
+        margin-top: 15rem;
 
-    .Footerhamburger-menu {
-        margin-left: 13rem;
-        margin-top: -3.5rem;
-        display: block;
-        font-size: 30px;
-        color: black;
+    }
 
+    .column {
+        margin-left: 1rem;
+        width: calc(35%);
+        margin-bottom: 20rem;
+        margin-top: -18rem;
+
+    }
+
+
+    .column li {
+        margin-left: 0rem;
+        margin: 0 auto;
+    }
+
+    .column li a {
+        font-size: 12px;
     }
 
 
@@ -467,26 +519,40 @@ footer {
 
 @media screen and (max-width: 300px) {
 
-
     .left img {
         width: 50px;
         /* Adjust the logo size as needed */
         height: auto;
-        margin-left: -6rem;
-        margin-top: -3rem;
+        margin-left: -10rem;
+        margin-top: 1rem;
         margin-right: 4rem;
         filter: brightness(0.4) contrast(0.8) invert(1) sepia(1) saturate(7900%) hue-rotate(280deg);
     }
 
-
-    .Footerhamburger-menu {
-        margin-left: 10rem;
-        margin-top: -3.5rem;
-        display: block;
-        font-size: 30px;
-        color: black;
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 5rem;
+        margin-top: 14rem;
 
     }
+
+    .column {
+        margin-left: 1rem;
+        width: calc(35%);
+        margin-bottom: 20rem;
+        margin-top: -18rem;
+
+    }
+
+
+    .column li {
+        margin-left: 0rem;
+        margin: 0 auto;
+    }
+
+
 
 
     .container p {
@@ -506,7 +572,7 @@ footer {
 }
 
 
-@media screen and (max-width: 222px) {
+@media screen and (max-width: 242px) {
 
 
     .left img {
@@ -520,14 +586,14 @@ footer {
     }
 
 
-    .Footerhamburger-menu {
+    /* .Footerhamburger-menu {
         margin-left: 7rem;
         margin-top: -3.5rem;
         display: block;
         font-size: 30px;
         color: black;
 
-    }
+    } */
 
 
     .container p {
