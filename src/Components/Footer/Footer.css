@@ -3,17 +3,13 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
-    /* Align items at the top */
-    background-color: #ffffff;
-    /* Light background color */
+    background-color: #ffffff;  
     padding: 2rem;
-    /* Adjust padding as needed */
 }
 
 
 .left img {
     width: 100px;
-    /* Adjust the logo size as needed */
     height: auto;
     margin-left: 4rem;
     margin-top: 4rem;
@@ -24,7 +20,6 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* Adjust as needed */
     margin-left: 10rem;
     margin-top: 30rem;
 
@@ -35,9 +30,7 @@ footer {
     margin-top: -12rem;
     margin-left: 5rem;
     width: calc(15%);
-    /* 4 columns by default */
-    margin-bottom: 20px;
-    /* Adjust as needed */
+    margin-bottom: 20px; 
 
 }
 
@@ -49,6 +42,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
+    
 
 }
 
@@ -143,14 +137,14 @@ footer {
         align-items: center;
         justify-content: start;
         margin-top: -20rem;
-        
+
 
     }
 
     .copywright p {
         margin-right: 22rem;
         text-align: left;
-       
+
     }
 
 }
@@ -181,6 +175,7 @@ footer {
         margin-top: -18rem;
 
     }
+
     .column li {
         margin-left: 0rem;
         margin: 0 auto;
@@ -194,7 +189,7 @@ footer {
         align-items: center;
         justify-content: center;
         margin-top: -20rem;
-        
+
 
     }
 
@@ -202,7 +197,7 @@ footer {
         margin-left: 1rem;
         margin-right: 0rem;
         text-align: left;
-       
+
     }
 
 }
@@ -241,20 +236,28 @@ footer {
         margin: 0 auto;
     }
 
+    .copywright {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: -20rem;
 
-    .container p {
-        margin-right: 6rem;
-        font-size: 14px;
+
+    }
+
+    .copywright p {
+        margin-left: 1rem;
+        margin-right: 0rem;
+        text-align: left;
 
     }
 
     .container img {
         width: 25px;
-        /* Adjust social media icon size as needed */
         height: 25px;
         margin: 1rem;
-
-
     }
 
 }
@@ -265,16 +268,12 @@ footer {
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: flex-start;
-        /* Align items at the top */
         background-color: #ffffff;
-        /* Light background color */
         padding: 2rem;
-        /* Adjust padding as needed */
     }
 
     .left img {
         width: 60px;
-        /* Adjust the logo size as needed */
         height: auto;
         margin-left: 2rem;
         margin-top: 4rem;
@@ -306,20 +305,30 @@ footer {
     }
 
 
-    .container p {
-        margin-right: 4rem;
-        font-size: 12px;
+    .copywright {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: -20rem;
+
+
+    }
+
+    .copywright p {
+        margin-left: 1rem;
+        margin-right: 0rem;
+        text-align: left;
 
     }
 
     .container img {
-        width: 20px;
-        /* Adjust social media icon size as needed */
-        height: 20px;
+        width: 25px;
+        height: 25px;
         margin: 1rem;
-
-
     }
+
 
 
 }
@@ -367,26 +376,36 @@ footer {
         margin: 0 auto;
     }
 
-    .container p {
-        margin-right: 4rem;
-        font-size: 12px;
+    .copywright {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: -20rem;
+
+
+    }
+
+    .copywright p {
+        margin-left: 1rem;
+        margin-right: 0rem;
+        text-align: left;
 
     }
 
     .container img {
-        width: 20px;
-        /* Adjust social media icon size as needed */
-        height: 20px;
-        margin: 0.5rem;
-
+        width: 25px;
+        height: 25px;
+        margin: 1rem;
     }
+
 
 }
 
 @media screen and (max-width: 482px) {
     .left img {
         width: 80px;
-        /* Adjust the logo size as needed */
         height: auto;
         margin-left: -13rem;
         margin-top: 0.5rem;
@@ -394,19 +413,30 @@ footer {
         filter: brightness(0.4) contrast(0.8) invert(1) sepia(1) saturate(7900%) hue-rotate(280deg);
     }
 
-    .container p {
-        margin-right: 2rem;
-        font-size: 10px;
+    .copywright {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: -20rem;
+
+
+    }
+
+    .copywright p {
+        margin-left: 1rem;
+        margin-right: 0rem;
+        text-align: left;
 
     }
 
     .container img {
-        width: 12px;
-        /* Adjust social media icon size as needed */
-        height: 12px;
-        margin: 0.5rem;
-
+        width: 25px;
+        height: 25px;
+        margin: 1rem;
     }
+
 
 }
 
@@ -417,7 +447,7 @@ footer {
         height: auto;
         margin-left: -12rem;
         margin-top: 1rem;
-        margin-right: 4rem;
+        margin-right: 2rem;
         filter: brightness(0.4) contrast(0.8) invert(1) sepia(1) saturate(7900%) hue-rotate(280deg);
     }
 
@@ -458,17 +488,41 @@ footer {
 
     }
 
+    .copywright {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: -20rem;
+        
+
+    }
+
+    .copywright p {
+        margin-left: 1rem;
+        margin-right: 0rem;
+        text-align: left;
+       
+    }
+
+    .container img {
+        width: 25px;
+        height: 25px;
+        margin: 1rem;
+    }
+
+
 }
 
 @media screen and (max-width: 360px) {
 
     .left img {
         width: 60px;
-        /* Adjust the logo size as needed */
         height: auto;
-        margin-left: -11rem;
         margin-top: -1rem;
-        margin-right: 4rem;
+        margin-right: 0rem;
+        margin-left: -170px;
         filter: brightness(0.4) contrast(0.8) invert(1) sepia(1) saturate(7900%) hue-rotate(280deg);
     }
 
@@ -476,14 +530,15 @@ footer {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-left: 5rem;
+        margin-left: 0.8rem;
         margin-top: 15rem;
+        
 
     }
 
     .column {
         margin-left: 1rem;
-        width: calc(35%);
+        width: calc(30%);
         margin-bottom: 20rem;
         margin-top: -18rem;
 
@@ -497,22 +552,34 @@ footer {
 
     .column li a {
         font-size: 12px;
+        
     }
 
 
-    .container p {
-        margin-right: 2rem;
-        font-size: 10px;
+    .copywright {
+        /* width: 100%; */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: -20rem;
+        
 
+    }
+
+    .copywright p {
+        margin-left: 1rem;
+        margin-right: 0rem;
+        text-align: left;
+       
     }
 
     .container img {
-        width: 12px;
-        /* Adjust social media icon size as needed */
-        height: 12px;
-        margin: 0.5rem;
-
+        width: 25px;
+        height: 25px;
+        margin: 1rem;
     }
+
 
 }
 
@@ -543,9 +610,7 @@ footer {
         width: calc(35%);
         margin-bottom: 20rem;
         margin-top: -18rem;
-
     }
-
 
     .column li {
         margin-left: 0rem;
@@ -553,28 +618,34 @@ footer {
     }
 
 
+    .copywright {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: -20rem;
 
+    }
 
-    .container p {
-        margin-right: 2rem;
-        font-size: 10px;
+    .copywright p {
+        margin-left: 1rem;
+        margin-right: 0rem;
+        text-align: left;
 
     }
 
     .container img {
-        width: 12px;
-        /* Adjust social media icon size as needed */
-        height: 12px;
-        margin: 0.5rem;
-
+        width: 25px;
+        height: 25px;
+        margin: 1rem;
     }
+
 
 }
 
 
 @media screen and (max-width: 242px) {
-
-
     .left img {
         width: 50px;
         /* Adjust the logo size as needed */
@@ -586,28 +657,5 @@ footer {
     }
 
 
-    /* .Footerhamburger-menu {
-        margin-left: 7rem;
-        margin-top: -3.5rem;
-        display: block;
-        font-size: 30px;
-        color: black;
-
-    } */
-
-
-    .container p {
-        margin-right: 2rem;
-        font-size: 10px;
-
-    }
-
-    .container img {
-        width: 12px;
-        /* Adjust social media icon size as needed */
-        height: 12px;
-        margin: 0.5rem;
-
-    }
 
 }
