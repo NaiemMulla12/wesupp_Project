@@ -93,10 +93,20 @@ h1 {
 }
 
 .OurClient {
-    background-color: azure;
+    /* background-color: azure; */
+    background-color: #ffffff;
     height: 20rem;
     padding: 1rem;
     text-align: center;
+}
+
+.underclient{
+    display: flex;
+}
+.underclient img{
+    width: 200px;
+    height: 120px;
+    margin: 1rem;
 }
 
 .GroupCompany{
@@ -106,6 +116,25 @@ h1 {
     text-align: center;
 
 }
+.GroupCompanyinner{
+    margin: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.GroupCompanyinner img{
+    width: 150px;
+    height: 125px;
+    margin-left: 0rem;
+    margin-right: 2rem;
+    /* border-radius: 220px; */
+}
+
+#img2{
+    width: 150px;
+    
+}
+
 
 .OurLeaders{
     background-color:#000000;
@@ -113,6 +142,13 @@ h1 {
     padding: 2rem;
     color: #9B26B5;
     text-align: center;
+
+}
+
+.OurLeaders .leaderlist{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
 
 }
 

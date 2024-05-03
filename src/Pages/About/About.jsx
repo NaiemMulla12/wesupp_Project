@@ -1,13 +1,16 @@
-
 import './About.css'
+import Slider from '../../Components/Slider/Slider'
+import Card from '../../Components/Card/Card';
 
+import wesupp from './wesupp.jpg'
+import impedance from './impedance logo.jpeg'
+import img from './image.jpeg'
 function About() {
-
     return (
         <>
             <div className="About_Container_01">
                 <div className="purpleArea">
-                    <h1>What is Meaning of Wesupp</h1>
+                    <h1>Why Engaged with WeSupp?</h1>
                 </div>
             </div>
             <div className="whitearea">
@@ -27,19 +30,36 @@ function About() {
 
             <div className="OurClient">
                 <h1>Our Clients</h1>
-                <h3>Silder is comming</h3>
+                <Slider />
+                {/* <h3>Silder is comming</h3> */}
             </div>
 
             <div className="GroupCompany">
                 <h1>OUR GROUP COMPANIES</h1>
-                <h3>card Comming</h3>
+                <div className='GroupCompanyinner'>
+                    <img src={wesupp} alt="" />
+                    <img id='img2' src={impedance} alt="" />
+
+
+                </div>
             </div>
 
             <div className='OurLeaders'>
-                <h4>Our Leaders</h4>
                 <h2>Meet our leaders</h2>
+                <div className='leaderlist'>
+                    <Card
+                        imageUrl={img}
+                        name="John Doe"
+                        position="Software Engineer"
+                    /> 
+                    <Card
+                        imageUrl={img}
+                        name="John Doe"
+                        position="Software Engineer"
+                    />   
+                </div>
 
-                <h3>photos and name card come</h3>
+
             </div>
 
             <div className="succesStory">
